@@ -16,6 +16,7 @@ module.exports = {
     new webpack.DefinePlugin({
       'process.env': {
         BROWSER: JSON.stringify(true),
+        // SERVER: JSON.stringify(undefined),
         UNRELATED_ENV_VAR: JSON.stringify('hello'),
       },
     }),
